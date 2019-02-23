@@ -1,0 +1,13 @@
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\Koowoo.Core.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\Koowoo.Core.pdb
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\AutoMapper.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\Newtonsoft.Json.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\NLog.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\AutoMapper.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\Newtonsoft.Json.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\bin\Debug\NLog.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\obj\Debug\Koowoo.Core.csprojAssemblyReference.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\obj\Debug\Koowoo.Core.csproj.CoreCompileInputs.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\obj\Debug\Koowoo.Core.csproj.CopyComplete
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\obj\Debug\Koowoo.Core.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Core\obj\Debug\Koowoo.Core.pdb

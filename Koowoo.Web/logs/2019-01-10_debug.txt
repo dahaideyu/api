@@ -1,0 +1,24 @@
+2019-01-10 20:24:28.9765 | System.String: 异常信息：Object reference not set to an instance of an object.
+堆栈信息：   at Koowoo.Web.Controllers.V1.RoomUserController.CheckIn(RoomUserDto model) in D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Web\Controllers\V1\RoomUserController.cs:line 83
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+请求参数为[{"RoomUserUUID":"3768797ab4c747529bf5bdb0cc9ada83","RoomUUID":"C546107FAC074DA0ABD68B8950240632","PersonUUID":"d0c4c2828afa4e6dbae9e6c8b76db4ce","LiveDate":"2018-12-25T00:00:00","LeaveDate":"2019-01-31T00:00:00","CreateDate":"0001-01-01T00:00:00","IsAdd":false,"FamilyRelation":299,"FamilyRelationName":null,"Status":1,"CommunityUUID":"0aab05b512fd4337ab2c8ac4932810ef"}] 
+

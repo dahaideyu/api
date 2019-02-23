@@ -1,0 +1,50 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link href="/template/admin/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/template/admin/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/ztree/css/metroStyle/metroStyle.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/bootstrap-table/treegrid/jquery-treegird.min.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/bootstrap-table/pagejump/bootstrap-table-pagejump.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/select2/select2.min.css" rel="stylesheet" />
+    <link href="/template/admin/plugins/switchery/switchery.min.css" rel="stylesheet" />
+    <link href="/template/admin/css/style.min.css" rel="stylesheet" />
+    <link href="/template/admin/css/common.min.css" rel="stylesheet" />
+    @RenderSection("css", false)
+</head>
+<body>
+    <div id="dpLTE" class="container-fluid" v-cloak>
+        @RenderBody();
+    </div>
+  
+
+        <script src="/template/admin/libs/jquery.min.js"></script>
+        <script src="/template/admin/libs/bootstrap.min.js"></script>
+        <script src="/template/admin/plugins/layer/layer.js"></script>
+        <script src="/template/admin/libs/vue.min.js"></script>
+        <script src="/template/admin/plugins/ztree/jquery.ztree.all.min.js"></script>
+        <script src="/template/admin/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="/template/admin/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+        <script src="/template/admin/plugins/bootstrap-table/treegrid/bootstrap-table-treegrid.js"></script>
+        <script src="/template/admin/plugins/bootstrap-table/treegrid/jquery-treegrid.min.js"></script>
+        <script src="/template/admin/plugins/bootstrap-table/pagejump/bootstrap-table-pagejump.js"></script>
+        <script src="/template/admin/plugins/validator/validator.js"></script>
+        <script src="/template/admin/plugins/laydate/laydate.js"></script>
+        <script src="/template/admin/plugins/select2/select2.min.js"></script>
+        <script src="/template/admin/plugins/select2/i18n/zh-CN.min.js"></script>
+        <script src="/template/admin/plugins/switchery/switchery.min.js"></script>
+        <script src="/template/admin/plugins/editor/editor.min.js"></script>
+        <script src="/template/admin/js/common.js"></script>
+        <script src="/template/admin/js/form.js"></script>
+
+
+
+    @RenderSection("scripts", required: false)   
+</body>
+</html>

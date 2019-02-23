@@ -1,0 +1,20 @@
+﻿<table class="form" id="form">
+    <tr>
+        <td class="formTitle formRequired">角色名称</td>
+        <td class="formValue">
+            <input type="text" class="form-control" placeholder="角色名称" v-model="role.roleName" isvalid="yes" checkexpession="NotNull">
+        </td>
+    </tr>
+    <tr>
+        <td class="formTitle formRequired">角色标识</td>
+        <td class="formValue">
+            <input type="text" class="form-control" placeholder="多个用逗号分隔，如：admin,guest" v-model="role.roleSign" isvalid="yes" checkexpession="NotNull">
+        </td>
+    </tr>
+    <tr>
+        <td class="formTitle formTitle-top">备注</td>
+        <td class="formValue">
+            <textarea class="form-control" rows="4" placeholder="备注" v-model="role.remark"></textarea>
+        </td>
+    </tr>
+</table>

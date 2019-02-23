@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72DAAE71-D05D-40A0-A0C6-8B96C59E8076}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Koowoo.Pojo</RootNamespace>
+    <AssemblyName>Koowoo.Pojo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaSelectListDto.cs" />
+    <Compile Include="AuthAllDto.cs" />
+    <Compile Include="AuthDeviceDto.cs" />
+    <Compile Include="CardAuthDto.cs" />
+    <Compile Include="CardDto.cs" />
+    <Compile Include="CardListDto.cs" />
+    <Compile Include="CardNoConvertDto.cs" />
+    <Compile Include="ChartDto.cs" />
+    <Compile Include="DeviceAlarmDto.cs" />
+    <Compile Include="DeviceListDto.cs" />
+    <Compile Include="DeviceStatusDto.cs" />
+    <Compile Include="DoorAuthDto.cs" />
+    <Compile Include="DoorDto.cs" />
+    <Compile Include="AreaDto.cs" />
+    <Compile Include="AreaTreeDto.cs" />
+    <Compile Include="Base\ResponseModel.cs" />
+    <Compile Include="Base\TableData.cs" />
+    <Compile Include="CommunityDto.cs" />
+    <Compile Include="DeleteDto.cs" />
+    <Compile Include="DeviceDto.cs" />
+    <Compile Include="DoorListDto.cs" />
+    <Compile Include="DoorSelectListDto.cs" />
+    <Compile Include="EChartLineDataDto.cs" />
+    <Compile Include="EntryHistoryDto.cs" />
+    <Compile Include="EntryHistoryListDto.cs" />
+    <Compile Include="Enum\DictTypeEnum.cs" />
+    <Compile Include="Enum\SyncLogEnum.cs" />
+    <Compile Include="PersonDto.cs" />
+    <Compile Include="PersonListDto.cs" />
+    <Compile Include="RentalContractDto.cs" />
+    <Compile Include="RentalContractListDto.cs" />
+    <Compile Include="RenterDto.cs" />
+    <Compile Include="Request\PersonReq.cs" />
+    <Compile Include="Request\QueryDateReq.cs" />
+    <Compile Include="Request\EntryListReq.cs" />
+    <Compile Include="AuthDto.cs" />
+    <Compile Include="RoomAuthDto.cs" />
+    <Compile Include="RoomDto.cs" />
+    <Compile Include="RoomListDto.cs" />
+    <Compile Include="RoomUserCardDeviceListDto.cs" />
+    <Compile Include="RoomUserDto.cs" />
+    <Compile Include="RoomUserListDto.cs" />
+    <Compile Include="System\ChangePasswordDto.cs" />
+    <Compile Include="System\ConfigDto.cs" />
+    <Compile Include="System\EvevatorConfigDto.cs" />
+    <Compile Include="System\DictDto.cs" />
+    <Compile Include="System\DictTypeDto.cs" />
+    <Compile Include="System\MenuDto.cs" />
+    <Compile Include="System\MenuListDto.cs" />
+    <Compile Include="System\RoleDto.cs" />
+    <Compile Include="System\UserDto.cs" />
+    <Compile Include="System\UserLoginDto.cs" />
+    <Compile Include="System\UserTokenDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\QueryListReq.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Koowoo.Core\Koowoo.Core.csproj">
+      <Project>{a9af1ed5-2cbb-48cb-9dfd-655531b88605}</Project>
+      <Name>Koowoo.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

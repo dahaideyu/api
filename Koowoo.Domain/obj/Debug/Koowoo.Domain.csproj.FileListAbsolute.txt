@@ -1,0 +1,6 @@
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\bin\Debug\Koowoo.Domain.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\bin\Debug\Koowoo.Domain.pdb
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\obj\Debug\Koowoo.Domain.csprojAssemblyReference.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\obj\Debug\Koowoo.Domain.csproj.CoreCompileInputs.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\obj\Debug\Koowoo.Domain.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Domain\obj\Debug\Koowoo.Domain.pdb

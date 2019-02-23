@@ -1,0 +1,15 @@
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Koowoo.Pojo.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Koowoo.Pojo.pdb
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Koowoo.Core.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\NLog.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Newtonsoft.Json.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\AutoMapper.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Koowoo.Core.pdb
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\NLog.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\Newtonsoft.Json.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\bin\Debug\AutoMapper.xml
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\obj\Debug\Koowoo.Pojo.csprojAssemblyReference.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\obj\Debug\Koowoo.Pojo.csproj.CoreCompileInputs.cache
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\obj\Debug\Koowoo.Pojo.csproj.CopyComplete
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\obj\Debug\Koowoo.Pojo.dll
+D:\projects\net\shequguanli\Community\trunk\Project\Web\Koowoo.Pojo\obj\Debug\Koowoo.Pojo.pdb
